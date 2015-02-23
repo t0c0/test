@@ -2,7 +2,7 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>Canvas tutorial template</title>
+    <title>Canvas tutorial template0223</title>
     <script type="text/javascript">
     const NUM = 500;
     const WIDTH = 640;
@@ -45,7 +45,7 @@
 	    //位置を更新
 	    locX[i] += speedX[i];
 	    locY[i] += speedY[i];
-	    
+
 	    if(locX[i] < 0 || locX[i] > WIDTH){
 		speedX[i] *= -1.0;
 	    }
@@ -53,7 +53,7 @@
 	    if(locY[i] < 0 || locY[i] > HEIGHT){
 		speedY[i] *= -1.0;
 	    }
-	    
+
 	    //更新した座標で円を描く
 	    ctx.beginPath();
 	    ctx.fillStyle = 'rgb(' + r[i] + ',' + g[i] + ',' + b[i] + ')';
